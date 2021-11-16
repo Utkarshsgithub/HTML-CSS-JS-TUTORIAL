@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CSS 2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <style>
+
+            p{
+                border: 2px solid red;
+            }
+
+            /* id selector */
+            #firstPara{
+                color: green;
+            }
+
+            /* class selector */
+            .bgblue{
+                color: yellow;
+                background-color: blue;
+            }
+
+            /* grouping selector */
+            footer, span{
+                background-color: pink;
+            
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <h3>CSS Selectors</h3>
+        <p id="firstPara" class="redelement">This is a simple paragraph to demonstrate CSS Selectors</p>
+        <p id="secondPara" class="redElement bgblue"> Another Simple Paragraph</p>
+        <div>
+            <p>This paragraph is inside div</p>
+            <span>This is Span</span>
+        </div>
+
+        <footer>This is footer</footer>
+
+    </body>
+</html>
